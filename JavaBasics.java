@@ -26,7 +26,10 @@ public class JavaBasics {
         int num5= sc.nextInt(); 
 
         System.out.println(num5);
+        // explicit typecasting 
 
+        float float_num = sc.nextFloat(); 
+        System.out.println(float_num);
     } 
 
 }
