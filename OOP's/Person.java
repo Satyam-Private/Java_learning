@@ -39,7 +39,7 @@ public class Person {
         // Objects Declared
         Person first = new Person("ABC", 18);
         Person second = new Person("XYZ", 22);
-
+    
         first.printDetails();
         second.printDetails();
 
