@@ -14,7 +14,7 @@ class two extends one{
 public class dynamic_method_dispatch{ 
     public static void main(String args[]){ 
         System.out.println("hellow");
-        two ob = new two(); 
+        one ob = new two(); 
         ob.meth1();
     }
 }
