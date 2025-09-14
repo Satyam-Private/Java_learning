@@ -15,6 +15,16 @@ public class input{
         }
      printMatrix(matrix);
     }
+    public static void searchEle(int matrix[][] , int target){ 
+        for(int i = 0; i < matrix.length; i++){ 
+            for(int j = 0; j < matrix[0].length; j++){ 
+                if(matrix[i][j] == target){ 
+                    System.out.println("Elment is present at index : [" + i + "," + j + "]");
+                }
+            }
+        }
+        
+    }
     public static void printMatrix(int matrix[][]){
         for(int  i = 0; i < matrix.length;i++){ 
             for(int j = 0; j < matrix[0].length; j++){ 
